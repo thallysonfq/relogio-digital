@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(45deg, blue, red);
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  gap: 10px;
+  border-radius: 5%;
+}
+
+.clock {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  font-size: 30px;
+  gap: 10px;
+  border-radius: 5%;
+  color: white;
+}
